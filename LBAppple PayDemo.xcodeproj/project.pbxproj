@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0B931091C75507E0039245B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B931081C75507E0039245B /* main.m */; };
+		D0B9310C1C75507E0039245B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9310B1C75507E0039245B /* AppDelegate.m */; };
+		D0B9310F1C75507E0039245B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9310E1C75507E0039245B /* ViewController.m */; };
+		D0B931121C75507E0039245B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B931101C75507E0039245B /* Main.storyboard */; };
+		D0B931141C75507E0039245B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B931131C75507E0039245B /* Assets.xcassets */; };
+		D0B931171C75507E0039245B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B931151C75507E0039245B /* LaunchScreen.storyboard */; };
+		D0B931221C75507E0039245B /* LBAppple_PayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B931211C75507E0039245B /* LBAppple_PayDemoTests.m */; };
+		D0B9312D1C75507E0039245B /* LBAppple_PayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9312C1C75507E0039245B /* LBAppple_PayDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0B9311E1C75507E0039245B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B930FC1C75507E0039245B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B931031C75507E0039245B;
+			remoteInfo = "LBAppple PayDemo";
+		};
+		D0B931291C75507E0039245B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B930FC1C75507E0039245B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B931031C75507E0039245B;
+			remoteInfo = "LBAppple PayDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0B931041C75507E0039245B /* LBAppple PayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LBAppple PayDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B931081C75507E0039245B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0B9310A1C75507E0039245B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0B9310B1C75507E0039245B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0B9310D1C75507E0039245B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0B9310E1C75507E0039245B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0B931111C75507E0039245B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0B931131C75507E0039245B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B931161C75507E0039245B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B931181C75507E0039245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B9311D1C75507E0039245B /* LBAppple PayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LBAppple PayDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B931211C75507E0039245B /* LBAppple_PayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppple_PayDemoTests.m; sourceTree = "<group>"; };
+		D0B931231C75507E0039245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B931281C75507E0039245B /* LBAppple PayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LBAppple PayDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B9312C1C75507E0039245B /* LBAppple_PayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppple_PayDemoUITests.m; sourceTree = "<group>"; };
+		D0B9312E1C75507E0039245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B931011C75507E0039245B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B9311A1C75507E0039245B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B931251C75507E0039245B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B930FB1C75507E0039245B = {
+			isa = PBXGroup;
+			children = (
+				D0B931061C75507E0039245B /* LBAppple PayDemo */,
+				D0B931201C75507E0039245B /* LBAppple PayDemoTests */,
+				D0B9312B1C75507E0039245B /* LBAppple PayDemoUITests */,
+				D0B931051C75507E0039245B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B931051C75507E0039245B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B931041C75507E0039245B /* LBAppple PayDemo.app */,
+				D0B9311D1C75507E0039245B /* LBAppple PayDemoTests.xctest */,
+				D0B931281C75507E0039245B /* LBAppple PayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B931061C75507E0039245B /* LBAppple PayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9310A1C75507E0039245B /* AppDelegate.h */,
+				D0B9310B1C75507E0039245B /* AppDelegate.m */,
+				D0B9310D1C75507E0039245B /* ViewController.h */,
+				D0B9310E1C75507E0039245B /* ViewController.m */,
+				D0B931101C75507E0039245B /* Main.storyboard */,
+				D0B931131C75507E0039245B /* Assets.xcassets */,
+				D0B931151C75507E0039245B /* LaunchScreen.storyboard */,
+				D0B931181C75507E0039245B /* Info.plist */,
+				D0B931071C75507E0039245B /* Supporting Files */,
+			);
+			path = "LBAppple PayDemo";
+			sourceTree = "<group>";
+		};
+		D0B931071C75507E0039245B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0B931081C75507E0039245B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0B931201C75507E0039245B /* LBAppple PayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B931211C75507E0039245B /* LBAppple_PayDemoTests.m */,
+				D0B931231C75507E0039245B /* Info.plist */,
+			);
+			path = "LBAppple PayDemoTests";
+			sourceTree = "<group>";
+		};
+		D0B9312B1C75507E0039245B /* LBAppple PayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9312C1C75507E0039245B /* LBAppple_PayDemoUITests.m */,
+				D0B9312E1C75507E0039245B /* Info.plist */,
+			);
+			path = "LBAppple PayDemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B931031C75507E0039245B /* LBAppple PayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B931311C75507E0039245B /* Build configuration list for PBXNativeTarget "LBAppple PayDemo" */;
+			buildPhases = (
+				D0B931001C75507E0039245B /* Sources */,
+				D0B931011C75507E0039245B /* Frameworks */,
+				D0B931021C75507E0039245B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LBAppple PayDemo";
+			productName = "LBAppple PayDemo";
+			productReference = D0B931041C75507E0039245B /* LBAppple PayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0B9311C1C75507E0039245B /* LBAppple PayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B931341C75507E0039245B /* Build configuration list for PBXNativeTarget "LBAppple PayDemoTests" */;
+			buildPhases = (
+				D0B931191C75507E0039245B /* Sources */,
+				D0B9311A1C75507E0039245B /* Frameworks */,
+				D0B9311B1C75507E0039245B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B9311F1C75507E0039245B /* PBXTargetDependency */,
+			);
+			name = "LBAppple PayDemoTests";
+			productName = "LBAppple PayDemoTests";
+			productReference = D0B9311D1C75507E0039245B /* LBAppple PayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0B931271C75507E0039245B /* LBAppple PayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B931371C75507E0039245B /* Build configuration list for PBXNativeTarget "LBAppple PayDemoUITests" */;
+			buildPhases = (
+				D0B931241C75507E0039245B /* Sources */,
+				D0B931251C75507E0039245B /* Frameworks */,
+				D0B931261C75507E0039245B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B9312A1C75507E0039245B /* PBXTargetDependency */,
+			);
+			name = "LBAppple PayDemoUITests";
+			productName = "LBAppple PayDemoUITests";
+			productReference = D0B931281C75507E0039245B /* LBAppple PayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B930FC1C75507E0039245B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Bison;
+				TargetAttributes = {
+					D0B931031C75507E0039245B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D0B9311C1C75507E0039245B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D0B931031C75507E0039245B;
+					};
+					D0B931271C75507E0039245B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D0B931031C75507E0039245B;
+					};
+				};
+			};
+			buildConfigurationList = D0B930FF1C75507E0039245B /* Build configuration list for PBXProject "LBAppple PayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B930FB1C75507E0039245B;
+			productRefGroup = D0B931051C75507E0039245B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B931031C75507E0039245B /* LBAppple PayDemo */,
+				D0B9311C1C75507E0039245B /* LBAppple PayDemoTests */,
+				D0B931271C75507E0039245B /* LBAppple PayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B931021C75507E0039245B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B931171C75507E0039245B /* LaunchScreen.storyboard in Resources */,
+				D0B931141C75507E0039245B /* Assets.xcassets in Resources */,
+				D0B931121C75507E0039245B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B9311B1C75507E0039245B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B931261C75507E0039245B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B931001C75507E0039245B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B9310F1C75507E0039245B /* ViewController.m in Sources */,
+				D0B9310C1C75507E0039245B /* AppDelegate.m in Sources */,
+				D0B931091C75507E0039245B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B931191C75507E0039245B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B931221C75507E0039245B /* LBAppple_PayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B931241C75507E0039245B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B9312D1C75507E0039245B /* LBAppple_PayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0B9311F1C75507E0039245B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B931031C75507E0039245B /* LBAppple PayDemo */;
+			targetProxy = D0B9311E1C75507E0039245B /* PBXContainerItemProxy */;
+		};
+		D0B9312A1C75507E0039245B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B931031C75507E0039245B /* LBAppple PayDemo */;
+			targetProxy = D0B931291C75507E0039245B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0B931101C75507E0039245B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B931111C75507E0039245B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B931151C75507E0039245B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B931161C75507E0039245B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B9312F1C75507E0039245B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B931301C75507E0039245B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B931321C75507E0039245B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LBAppple PayDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBAppple-PayDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0B931331C75507E0039245B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LBAppple PayDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBAppple-PayDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0B931351C75507E0039245B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LBAppple PayDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBAppple-PayDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBAppple PayDemo.app/LBAppple PayDemo";
+			};
+			name = Debug;
+		};
+		D0B931361C75507E0039245B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LBAppple PayDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBAppple-PayDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBAppple PayDemo.app/LBAppple PayDemo";
+			};
+			name = Release;
+		};
+		D0B931381C75507E0039245B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LBAppple PayDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBAppple-PayDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LBAppple PayDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D0B931391C75507E0039245B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LBAppple PayDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBAppple-PayDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LBAppple PayDemo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B930FF1C75507E0039245B /* Build configuration list for PBXProject "LBAppple PayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B9312F1C75507E0039245B /* Debug */,
+				D0B931301C75507E0039245B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B931311C75507E0039245B /* Build configuration list for PBXNativeTarget "LBAppple PayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B931321C75507E0039245B /* Debug */,
+				D0B931331C75507E0039245B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0B931341C75507E0039245B /* Build configuration list for PBXNativeTarget "LBAppple PayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B931351C75507E0039245B /* Debug */,
+				D0B931361C75507E0039245B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0B931371C75507E0039245B /* Build configuration list for PBXNativeTarget "LBAppple PayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B931381C75507E0039245B /* Debug */,
+				D0B931391C75507E0039245B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B930FC1C75507E0039245B /* Project object */;
+}

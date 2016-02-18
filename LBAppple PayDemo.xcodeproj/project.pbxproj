@@ -15,6 +15,8 @@
 		D0B931171C75507E0039245B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B931151C75507E0039245B /* LaunchScreen.storyboard */; };
 		D0B931221C75507E0039245B /* LBAppple_PayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B931211C75507E0039245B /* LBAppple_PayDemoTests.m */; };
 		D0B9312D1C75507E0039245B /* LBAppple_PayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9312C1C75507E0039245B /* LBAppple_PayDemoUITests.m */; };
+		D0B9313D1C756A7F0039245B /* ApplePayBTN_64pt__whiteLine_textLogo_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9313B1C756A7F0039245B /* ApplePayBTN_64pt__whiteLine_textLogo_@2x.png */; };
+		D0B9313E1C756A7F0039245B /* ApplePayBTN_64pt__whiteLine_textLogo_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B9313C1C756A7F0039245B /* ApplePayBTN_64pt__whiteLine_textLogo_@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		D0B931281C75507E0039245B /* LBAppple PayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LBAppple PayDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B9312C1C75507E0039245B /* LBAppple_PayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppple_PayDemoUITests.m; sourceTree = "<group>"; };
 		D0B9312E1C75507E0039245B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B9313A1C7550960039245B /* LBAppple PayDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "LBAppple PayDemo.entitlements"; sourceTree = "<group>"; };
+		D0B9313B1C756A7F0039245B /* ApplePayBTN_64pt__whiteLine_textLogo_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ApplePayBTN_64pt__whiteLine_textLogo_@2x.png"; path = "../ApplePayBTN_64pt__whiteLine_textLogo_@2x.png"; sourceTree = "<group>"; };
+		D0B9313C1C756A7F0039245B /* ApplePayBTN_64pt__whiteLine_textLogo_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ApplePayBTN_64pt__whiteLine_textLogo_@3x.png"; path = "../ApplePayBTN_64pt__whiteLine_textLogo_@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +106,15 @@
 		D0B931061C75507E0039245B /* LBAppple PayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D0B9313A1C7550960039245B /* LBAppple PayDemo.entitlements */,
 				D0B9310A1C75507E0039245B /* AppDelegate.h */,
 				D0B9310B1C75507E0039245B /* AppDelegate.m */,
 				D0B9310D1C75507E0039245B /* ViewController.h */,
 				D0B9310E1C75507E0039245B /* ViewController.m */,
 				D0B931101C75507E0039245B /* Main.storyboard */,
 				D0B931131C75507E0039245B /* Assets.xcassets */,
+				D0B9313B1C756A7F0039245B /* ApplePayBTN_64pt__whiteLine_textLogo_@2x.png */,
+				D0B9313C1C756A7F0039245B /* ApplePayBTN_64pt__whiteLine_textLogo_@3x.png */,
 				D0B931151C75507E0039245B /* LaunchScreen.storyboard */,
 				D0B931181C75507E0039245B /* Info.plist */,
 				D0B931071C75507E0039245B /* Supporting Files */,
@@ -207,6 +215,12 @@
 				TargetAttributes = {
 					D0B931031C75507E0039245B = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7UH29K5MGM;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 1;
+							};
+						};
 					};
 					D0B9311C1C75507E0039245B = {
 						CreatedOnToolsVersion = 7.2;
@@ -244,8 +258,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B931171C75507E0039245B /* LaunchScreen.storyboard in Resources */,
+				D0B9313D1C756A7F0039245B /* ApplePayBTN_64pt__whiteLine_textLogo_@2x.png in Resources */,
 				D0B931141C75507E0039245B /* Assets.xcassets in Resources */,
 				D0B931121C75507E0039245B /* Main.storyboard in Resources */,
+				D0B9313E1C756A7F0039245B /* ApplePayBTN_64pt__whiteLine_textLogo_@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +429,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LBAppple PayDemo/LBAppple PayDemo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "LBAppple PayDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBAppple-PayDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +444,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LBAppple PayDemo/LBAppple PayDemo.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "LBAppple PayDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.LBAppple-PayDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

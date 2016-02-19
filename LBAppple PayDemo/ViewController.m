@@ -76,7 +76,7 @@
         request.paymentSummaryItems = @[widget1, widget2, widget3, widget4];
         //countryCode查询网站 http://www.unc.edu/~rowlett/units/codes/country.htm
         request.countryCode = @"CN";
-        request.currencyCode = @"CHW";
+        request.currencyCode = @"CNY";
         //此属性限制支付卡，可以支付。PKPaymentNetworkChinaUnionPay支持中国的卡 9.2增加的
         request.supportedNetworks = @[PKPaymentNetworkChinaUnionPay, PKPaymentNetworkMasterCard, PKPaymentNetworkVisa];
         request.merchantIdentifier = @"merchant.com.example.lbapplepaydemo";
@@ -86,7 +86,7 @@
          */
         request.merchantCapabilities = PKMerchantCapabilityCredit;
         //增加邮箱及地址信息
-        request.requiredBillingAddressFields = PKAddressFieldEmail | PKAddressFieldPostalAddress;
+//        request.requiredBillingAddressFields = PKAddressFieldEmail | PKAddressFieldPostalAddress;
         PKPaymentAuthorizationViewController *paymentPane = [[PKPaymentAuthorizationViewController alloc] initWithPaymentRequest:request];
         paymentPane.delegate = self;
         //        [self presentViewController:paymentPane animated:YES completion:nil];
